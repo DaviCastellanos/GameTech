@@ -16,7 +16,7 @@ public class Shooter : MonoBehaviour
 
     private void Awake()
     {
-        //fire.onClick.AddListener(Fire);
+        fire.onClick.AddListener(Fire);
     }
 
     void Fire()
